@@ -532,7 +532,7 @@ export default function Portfolio() {
             { val: 6, suffix: "+", label: "Internships Completed" },
             { val: 3, suffix: "", label: "Projects Built" },
             { val: 8, suffix: "+", label: "Certifications Earned" },
-            { val: 8.5, suffix: "CGPA", label: "Academic Score", float: true, instant: true },
+            { val: 8.39, suffix: " CGPA", label: "Academic Score", instant: true },
           ].map(s => (
             <div key={s.label} style={{ textAlign: "center" }}>
               <div style={{ fontSize: "clamp(2rem,4vw,2.8rem)", fontWeight: 900, background: `linear-gradient(135deg,${ACCENT},${PURPLE})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontFamily: "monospace" }}>
